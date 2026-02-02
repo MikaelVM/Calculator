@@ -1,0 +1,10 @@
+# Linters
+flake8
+flake8-annotations
+flake8-docstrings
+flake8-docstrings-complete
+flake8-bugbear
+flake8-import-order
+
+# Testing
+pytest
