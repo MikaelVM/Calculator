@@ -8,3 +8,6 @@ flake8-import-order
 
 # Testing
 pytest
+
+# CLI Interface
+typer
