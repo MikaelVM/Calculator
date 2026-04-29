@@ -76,20 +76,40 @@ class Calculator:
 
     @staticmethod
     def multiplication(number1: float, number2: float) -> float:
-        """Multiply two numbers."""
+        """Multiply two numbers.
+
+        Args:
+            number1 (float): The number to be multiplied.
+            number2 (float): The number to multiply by.
+        """
         return number1 * number2
 
     @staticmethod
     def division(number1: float, number2: float) -> float:
-        """Divide two numbers."""
+        """Divide two numbers.
+
+        Args:
+            number1 (float): The number to be divided.
+            number2 (float): The number to divide by.
+        """
         return number1 / number2
 
     @staticmethod
     def addition(number1: float, number2: float) -> float:
-        """Add two numbers."""
+        """Add two numbers.
+
+        Args:
+            number1 (float): The number that is being added to.
+            number2 (float): The number that is being added.
+        """
         return number1 + number2
 
     @staticmethod
     def subtraction(number1: float, number2: float) -> float:
-        """Subtract two numbers."""
+        """Subtract two numbers.
+
+        Args:
+            number1 (float): The number that is being subtracted from.
+            number2 (float): The number that is being subtracted.
+        """
         return number1 - number2
