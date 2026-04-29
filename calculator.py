@@ -23,7 +23,6 @@ class Calculator:
             ValueError: If the equation is invalid.
         """
         # Tokenizer. Separates numbers and operators.
-        # TODO: Make a separate function that also validates input.
         self.memory = re.findall('[+-/*//()]|\\d+', equation)
 
         while '*' in self.memory:
